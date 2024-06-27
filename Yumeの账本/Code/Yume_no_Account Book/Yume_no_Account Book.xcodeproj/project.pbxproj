@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53F1DEC2C2C10DE002AFDDB /* IncomeSumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1DEB2C2C10DE002AFDDB /* IncomeSumView.swift */; };
+		B53F1DF62C2D239C002AFDDB /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B53F1DF52C2D239C002AFDDB /* Inter-Regular.ttf */; };
+		B53F1DF82C2D26DC002AFDDB /* SpendingSumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1DF72C2D26DC002AFDDB /* SpendingSumView.swift */; };
 		B5999D2B2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5999D2A2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift */; };
-		B5999D2D2C2B02FC00CE0437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5999D2C2C2B02FC00CE0437 /* ContentView.swift */; };
+		B5999D2D2C2B02FC00CE0437 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5999D2C2C2B02FC00CE0437 /* HomeView.swift */; };
 		B5999D2F2C2B02FE00CE0437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5999D2E2C2B02FE00CE0437 /* Assets.xcassets */; };
 		B5999D322C2B02FE00CE0437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5999D312C2B02FE00CE0437 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B53F1DEB2C2C10DE002AFDDB /* IncomeSumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeSumView.swift; sourceTree = "<group>"; };
+		B53F1DF52C2D239C002AFDDB /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		B53F1DF72C2D26DC002AFDDB /* SpendingSumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingSumView.swift; sourceTree = "<group>"; };
 		B5999D272C2B02FC00CE0437 /* Yume_no_Account Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yume_no_Account Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5999D2A2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yume_no_Account_BookApp.swift; sourceTree = "<group>"; };
-		B5999D2C2C2B02FC00CE0437 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5999D2C2C2B02FC00CE0437 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B5999D2E2C2B02FE00CE0437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5999D312C2B02FE00CE0437 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B53F1DF02C2D207A002AFDDB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B53F1DF52C2D239C002AFDDB /* Inter-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		B5999D1E2C2B02FC00CE0437 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +65,13 @@
 		B5999D292C2B02FC00CE0437 /* Yume_no_Account Book */ = {
 			isa = PBXGroup;
 			children = (
-				B5999D2A2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift */,
-				B5999D2C2C2B02FC00CE0437 /* ContentView.swift */,
-				B5999D2E2C2B02FE00CE0437 /* Assets.xcassets */,
+				B53F1DF02C2D207A002AFDDB /* Fonts */,
 				B5999D302C2B02FE00CE0437 /* Preview Content */,
+				B5999D2A2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift */,
+				B5999D2C2C2B02FC00CE0437 /* HomeView.swift */,
+				B5999D2E2C2B02FE00CE0437 /* Assets.xcassets */,
+				B53F1DEB2C2C10DE002AFDDB /* IncomeSumView.swift */,
+				B53F1DF72C2D26DC002AFDDB /* SpendingSumView.swift */,
 			);
 			path = "Yume_no_Account Book";
 			sourceTree = "<group>";
@@ -126,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5999D322C2B02FE00CE0437 /* Preview Assets.xcassets in Resources */,
+				B53F1DF62C2D239C002AFDDB /* Inter-Regular.ttf in Resources */,
 				B5999D2F2C2B02FE00CE0437 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5999D2D2C2B02FC00CE0437 /* ContentView.swift in Sources */,
+				B53F1DF82C2D26DC002AFDDB /* SpendingSumView.swift in Sources */,
+				B5999D2D2C2B02FC00CE0437 /* HomeView.swift in Sources */,
+				B53F1DEC2C2C10DE002AFDDB /* IncomeSumView.swift in Sources */,
 				B5999D2B2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

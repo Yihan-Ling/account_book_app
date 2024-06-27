@@ -11,7 +11,7 @@ import SwiftUI
 struct Yume_no_Account_BookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
