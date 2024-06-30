@@ -9,22 +9,52 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack{
-            Color("D9D9D9")
-                .ignoresSafeArea()
-            
-            VStack{
-                // Spending and Income HStack
-                HStack{
-                    SpendingSumView()
-                        .padding(.leading, 35)
+        NavigationView{
+            ZStack{
+                Color("D9D9D9")
+                    .ignoresSafeArea()
+                
+                VStack{
+                    HStack{
+                        // Settings Button
+                        NavigationLink(destination: SettingsView()) {
+                            Image(systemName: "gearshape.fill")
+                                .font(.system(size: 24))
+                                .foregroundColor(.black)
+                                .padding(.leading, 35)
+                        }
+                        
+                        Spacer()
+                        
+                        //Search Button
+                        NavigationLink(destination: SearchView()) {
+                            Image(systemName: "magnifyingglass")
+                                .font(.system(size: 24))
+                                .foregroundColor(.black)
+                                .padding(.trailing, 35)
+                        }
+                        
+                    }
+                    
+                    /*
+                    TODO: remove comment on this spacer when added more details
+                     
                     Spacer()
-                    IncomeSumView()
-                        .padding(.trailing, 35)
+                     */
+                    
+                    // Spending and Income HStack
+                    HStack{
+                        SpendingSumView()
+                            .padding(.leading, 35)
+                        Spacer()
+                        IncomeSumView()
+                            .padding(.trailing, 35)
+                        
+                    }
                     
                 }
-                
-            }
+        }
+        
             
             
             
