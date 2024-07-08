@@ -19,11 +19,11 @@ struct SpendingSumView: View {
                 .cornerRadius(15)
             VStack{
                 Text(String(format: "%.2f", spending))
-                    .font(.custom("Inter-Regular", size: 24))
+                    .font(.system(size: 24))
                     .foregroundColor(Color("FD5249"))
                 
                 Text("支出")
-                    .font(.custom("Inter-Regular", size: 12))
+                    .font(.system(size: 12))
             }
             
             

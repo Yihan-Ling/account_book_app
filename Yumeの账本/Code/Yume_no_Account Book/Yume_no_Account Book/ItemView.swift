@@ -26,14 +26,36 @@ struct ItemView: View {
                 Circle()
                     .fill(Color.yellow)
                     .frame(width: 35,height: 35)
-                VStack{
+                    .padding(.leading, 50)
+                
+                Spacer()
+                
+                VStack(alignment: .leading){
                     Text("奶茶")
+                        .font(.system(size: 14))
+                        .fontWeight(.bold)
+                    
+                    
                     Text("下午 2:30 · 餐饮")
+                        .font(.system(size: 12))
+                        .padding(.top, 2)
                 }
-                VStack{
+                .padding(.trailing, 75)
+                .padding(.top, 8)
+                
+                
+                Spacer()
+                
+                VStack(alignment: .center){
                     Text("- 21")
+                        .font(.system(size: 16))
+                        .fontWeight(.bold)
                     Text("微信钱包")
+                        .font(.system(size: 12))
+                        .padding(.top, 1)
                 }
+                .padding(.trailing, 70)
+                .padding(.top, 15)
             }
         }
     }
