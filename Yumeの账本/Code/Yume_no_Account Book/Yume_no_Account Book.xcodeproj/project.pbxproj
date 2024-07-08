@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B53F1DEC2C2C10DE002AFDDB /* IncomeSumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1DEB2C2C10DE002AFDDB /* IncomeSumView.swift */; };
 		B53F1DF62C2D239C002AFDDB /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B53F1DF52C2D239C002AFDDB /* Inter-Regular.ttf */; };
 		B53F1DF82C2D26DC002AFDDB /* SpendingSumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1DF72C2D26DC002AFDDB /* SpendingSumView.swift */; };
 		B53F1DFA2C2D564A002AFDDB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1DF92C2D564A002AFDDB /* SettingsView.swift */; };
 		B53F1DFC2C3186B3002AFDDB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1DFB2C3186B3002AFDDB /* SearchView.swift */; };
 		B53F1DFE2C36C718002AFDDB /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1DFD2C36C717002AFDDB /* ItemView.swift */; };
+		B53F1E002C3BA140002AFDDB /* OneDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1DFF2C3BA140002AFDDB /* OneDayView.swift */; };
+		B53F1E022C3BA458002AFDDB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1E012C3BA458002AFDDB /* Item.swift */; };
+		B53F1E042C3BA682002AFDDB /* testingData.json in Resources */ = {isa = PBXBuildFile; fileRef = B53F1E032C3BA682002AFDDB /* testingData.json */; };
+		B53F1E062C3BA863002AFDDB /* loadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1E052C3BA863002AFDDB /* loadData.swift */; };
+		B53F1E0A2C3BB2AA002AFDDB /* IncomeSumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1DEB2C2C10DE002AFDDB /* IncomeSumView.swift */; };
 		B5999D2B2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5999D2A2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift */; };
 		B5999D2D2C2B02FC00CE0437 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5999D2C2C2B02FC00CE0437 /* HomeView.swift */; };
 		B5999D2F2C2B02FE00CE0437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5999D2E2C2B02FE00CE0437 /* Assets.xcassets */; };
@@ -26,6 +30,10 @@
 		B53F1DF92C2D564A002AFDDB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B53F1DFB2C3186B3002AFDDB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		B53F1DFD2C36C717002AFDDB /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		B53F1DFF2C3BA140002AFDDB /* OneDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDayView.swift; sourceTree = "<group>"; };
+		B53F1E012C3BA458002AFDDB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B53F1E032C3BA682002AFDDB /* testingData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testingData.json; sourceTree = "<group>"; };
+		B53F1E052C3BA863002AFDDB /* loadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadData.swift; sourceTree = "<group>"; };
 		B5999D272C2B02FC00CE0437 /* Yume_no_Account Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yume_no_Account Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5999D2A2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yume_no_Account_BookApp.swift; sourceTree = "<group>"; };
 		B5999D2C2C2B02FC00CE0437 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -52,6 +60,30 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		B53F1E072C3BA8BD002AFDDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5999D2C2C2B02FC00CE0437 /* HomeView.swift */,
+				B53F1DF72C2D26DC002AFDDB /* SpendingSumView.swift */,
+				B53F1DEB2C2C10DE002AFDDB /* IncomeSumView.swift */,
+				B53F1DF92C2D564A002AFDDB /* SettingsView.swift */,
+				B53F1DFB2C3186B3002AFDDB /* SearchView.swift */,
+				B53F1DFD2C36C717002AFDDB /* ItemView.swift */,
+				B53F1DFF2C3BA140002AFDDB /* OneDayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B53F1E082C3BA8E1002AFDDB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B53F1E032C3BA682002AFDDB /* testingData.json */,
+				B53F1E052C3BA863002AFDDB /* loadData.swift */,
+				B53F1E012C3BA458002AFDDB /* Item.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		B5999D1E2C2B02FC00CE0437 = {
 			isa = PBXGroup;
 			children = (
@@ -74,13 +106,9 @@
 				B53F1DF02C2D207A002AFDDB /* Fonts */,
 				B5999D302C2B02FE00CE0437 /* Preview Content */,
 				B5999D2A2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift */,
-				B5999D2C2C2B02FC00CE0437 /* HomeView.swift */,
-				B53F1DFD2C36C717002AFDDB /* ItemView.swift */,
-				B53F1DFB2C3186B3002AFDDB /* SearchView.swift */,
-				B53F1DF92C2D564A002AFDDB /* SettingsView.swift */,
+				B53F1E082C3BA8E1002AFDDB /* Data */,
+				B53F1E072C3BA8BD002AFDDB /* Views */,
 				B5999D2E2C2B02FE00CE0437 /* Assets.xcassets */,
-				B53F1DEB2C2C10DE002AFDDB /* IncomeSumView.swift */,
-				B53F1DF72C2D26DC002AFDDB /* SpendingSumView.swift */,
 			);
 			path = "Yume_no_Account Book";
 			sourceTree = "<group>";
@@ -151,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53F1E042C3BA682002AFDDB /* testingData.json in Resources */,
 				B5999D322C2B02FE00CE0437 /* Preview Assets.xcassets in Resources */,
 				B53F1DF62C2D239C002AFDDB /* Inter-Regular.ttf in Resources */,
 				B5999D2F2C2B02FE00CE0437 /* Assets.xcassets in Resources */,
@@ -165,12 +194,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B53F1DFA2C2D564A002AFDDB /* SettingsView.swift in Sources */,
+				B53F1E062C3BA863002AFDDB /* loadData.swift in Sources */,
+				B53F1E022C3BA458002AFDDB /* Item.swift in Sources */,
 				B53F1DF82C2D26DC002AFDDB /* SpendingSumView.swift in Sources */,
 				B5999D2D2C2B02FC00CE0437 /* HomeView.swift in Sources */,
-				B53F1DEC2C2C10DE002AFDDB /* IncomeSumView.swift in Sources */,
 				B53F1DFE2C36C718002AFDDB /* ItemView.swift in Sources */,
 				B53F1DFC2C3186B3002AFDDB /* SearchView.swift in Sources */,
+				B53F1E002C3BA140002AFDDB /* OneDayView.swift in Sources */,
 				B5999D2B2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift in Sources */,
+				B53F1E0A2C3BB2AA002AFDDB /* IncomeSumView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,24 @@
+[
+    {
+        "id": "2024060701",
+        "isSpending": true,
+        "category": "餐饮",
+        "description": "奶茶",
+        "date": "2024-06-07",
+        "time": "下午 2:30",
+        "amount": -21,
+        "currency": "RMB",
+        "wallet": "微信钱包"
+    },
+    {
+        "id": "2024060702",
+        "isSpending": true,
+        "category": "餐饮",
+        "description": "包子",
+        "date": "2024-06-07",
+        "time": "下午 2:30",
+        "amount": -20,
+        "currency": "RMB",
+        "wallet": "微信钱包"
+    }
+]

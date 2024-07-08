@@ -8,12 +8,10 @@
 import SwiftUI
 
 struct ItemView: View {
+    var item: Item
     var body: some View {
         
         ZStack{
-            // TODO: remove background color when done
-            Color("D9D9D9")
-                .ignoresSafeArea()
             
             Rectangle()
                 .fill(Color("FDFFFC"))
@@ -31,12 +29,12 @@ struct ItemView: View {
                 Spacer()
                 
                 VStack(alignment: .leading){
-                    Text("奶茶")
+                    Text(item.description)
                         .font(.system(size: 14))
                         .fontWeight(.bold)
                     
                     
-                    Text("下午 2:30 · 餐饮")
+                    Text("\(item.time) · \(item.category)")
                         .font(.system(size: 12))
                         .padding(.top, 2)
                 }
@@ -47,10 +45,10 @@ struct ItemView: View {
                 Spacer()
                 
                 VStack(alignment: .center){
-                    Text("- 21")
+                    Text("\(item.amount)")
                         .font(.system(size: 16))
                         .fontWeight(.bold)
-                    Text("微信钱包")
+                    Text(item.wallet)
                         .font(.system(size: 12))
                         .padding(.top, 1)
                 }
@@ -58,9 +56,11 @@ struct ItemView: View {
                 .padding(.top, 15)
             }
         }
+//        .padding(.top, 0.5)
+//        .padding(.bottom, 0.5)
     }
 }
 
 #Preview {
-    ItemView()
+    ItemView(item: items[0])
 }
