@@ -46,17 +46,27 @@ struct OneDayView: View {
                     .font(.system(size: 12))
                     .padding(.leading, -15)
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.leading, 22)
+            .padding(.bottom, -20)
             
             List {
                 ForEach(items.filter { $0.date == date }) { item in
                     ItemView(item: item)
                         .listRowSeparator(.hidden)
                         .padding(.vertical, -8)
+                        .listRowBackground(Color("D9D9D9"))
+                    
                 }
             }
-            .listStyle(PlainListStyle()) 
+            .listStyle(PlainListStyle())
+//            .scrollContentBackground(.hidden)
+            
         }
+        
+        
     }
+    
     
     
 }

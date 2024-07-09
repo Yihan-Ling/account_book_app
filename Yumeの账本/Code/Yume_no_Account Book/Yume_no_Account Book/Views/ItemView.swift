@@ -24,7 +24,7 @@ struct ItemView: View {
                 Circle()
                     .fill(Color.yellow)
                     .frame(width: 35,height: 35)
-                    .padding(.leading, 50)
+                    .padding(.leading, 30)
                 
                 Spacer()
                 
@@ -38,7 +38,7 @@ struct ItemView: View {
                         .font(.system(size: 12))
                         .padding(.top, 2)
                 }
-                .padding(.trailing, 75)
+                .padding(.trailing, 35)
                 .padding(.top, 8)
                 
                 

@@ -36,11 +36,11 @@ struct HomeView: View {
                         
                     }
                     
-                    /*
-                    TODO: remove comment on this spacer when added more details
+                    
+//                    TODO: remove comment on this spacer when added more details
                      
-                    Spacer()
-                     */
+//                    Spacer()
+                     
                     
                     // Spending and Income HStack
                     HStack{
@@ -51,6 +51,9 @@ struct HomeView: View {
                             .padding(.trailing, 35)
                         
                     }
+                    .padding(.top, 30)
+                    .padding(.bottom, 20)
+                    
                     OneDayView(date: "2024-06-07")
                     
                 }
