@@ -14,7 +14,7 @@ struct ItemView: View {
         ZStack{
             
             Rectangle()
-                .fill(Color("FDFFFC"))
+                .fill(Color("Background_White_1"))
                 .frame(width: 334,height: 89)
                 .cornerRadius(15)
             
@@ -38,7 +38,7 @@ struct ItemView: View {
                         .font(.system(size: 12))
                         .padding(.top, 2)
                 }
-                .padding(.trailing, 35)
+                .padding(.trailing, 55)
                 .padding(.top, 8)
                 
                 

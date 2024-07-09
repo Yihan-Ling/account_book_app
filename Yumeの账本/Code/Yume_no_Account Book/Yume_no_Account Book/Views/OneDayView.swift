@@ -55,7 +55,7 @@ struct OneDayView: View {
                     ItemView(item: item)
                         .listRowSeparator(.hidden)
                         .padding(.vertical, -8)
-                        .listRowBackground(Color("D9D9D9"))
+                        .listRowBackground(Color("Background_Gray_1"))
                     
                 }
             }
