@@ -103,9 +103,9 @@
 		B5999D292C2B02FC00CE0437 /* Yume_no_Account Book */ = {
 			isa = PBXGroup;
 			children = (
+				B5999D2A2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift */,
 				B53F1DF02C2D207A002AFDDB /* Fonts */,
 				B5999D302C2B02FE00CE0437 /* Preview Content */,
-				B5999D2A2C2B02FC00CE0437 /* Yume_no_Account_BookApp.swift */,
 				B53F1E082C3BA8E1002AFDDB /* Data */,
 				B53F1E072C3BA8BD002AFDDB /* Views */,
 				B5999D2E2C2B02FE00CE0437 /* Assets.xcassets */,

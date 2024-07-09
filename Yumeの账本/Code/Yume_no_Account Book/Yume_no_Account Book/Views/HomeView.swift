@@ -51,6 +51,7 @@ struct HomeView: View {
                             .padding(.trailing, 35)
                         
                     }
+                    OneDayView(date: "2024-06-07")
                     
                 }
         }
